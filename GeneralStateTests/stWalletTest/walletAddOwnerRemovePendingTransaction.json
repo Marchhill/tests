@@ -2,11 +2,11 @@
     "walletAddOwnerRemovePendingTransaction" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "31b0666f632bb216d025f48f690a5197264e619a788061abb3bcd2f59809c027",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "eb8ffe2a7b8c11c912d3ee179752bbffa11580d7a897fcdc7f3afd8f5c19cf49",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/walletAddOwnerRemovePendingTransactionFiller.json",
             "sourceHash" : "59f1c10842c753c9f742ab7e90b5eca67c288a4e202c162e8b3e5147604f3cf1"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x4d5a74173f1683f281578c5cdceafce4c0f2aee3437170027274cf271bbba6c9",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0xfe0b71d70596a5c556adb48823b888a3446feef91fdf5cce04846a698684cdd0",
+                    "txbytes" : "0xf884800a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d80a47065cb48000000000000000000000000bbb1cd2cd96c6d5c0b5eb3322d807b34482481d41ca0eead4ab65d6afb71d673fcf32223701d922a1df4867c367283ee51b68b727c44a013a47b9c04a4bca3f9891b1568d3970ec9a90b4c31c1fa4320292eb94911ebb4"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x4d5a74173f1683f281578c5cdceafce4c0f2aee3437170027274cf271bbba6c9",
                     "indexes" : {

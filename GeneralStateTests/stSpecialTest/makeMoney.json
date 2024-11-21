@@ -2,11 +2,11 @@
     "makeMoney" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "1257bc264b3ba2d06abe8cfe57da2f3078b455aa2aca4d53c0e9f06c608f19da",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "9de42e3cad799ebec2b6eecdc209c73f0ec87b84dd529373dd803c3b152b1465",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/makeMoneyFiller.json",
             "sourceHash" : "cc37be54c47770b3200bf3a48a593ab49f5e59b7aa08c684345907e037158a75"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x0f4240",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xa19c09577d072fdbb64378e2af23ec866d27eb83a8b3c41ce68346fc427c5166",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83037c9494095e7baea6a6c7c4c2dfeb977efac326af552d870a801ba0b07974995e9a9397bd9ee2cd20d94561a8b24b540495d57095bd3c8eef318bdaa0675ab3cd023f6d479de46a677e1e13b12833acfce3243fb86951cd903dd37357"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xa19c09577d072fdbb64378e2af23ec866d27eb83a8b3c41ce68346fc427c5166",
                     "indexes" : {

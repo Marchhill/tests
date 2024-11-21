@@ -2,16 +2,16 @@
     "suicide" : {
         "_info" : {
             "comment" : "Ori Pomerantz qbzzt1@gmail.com",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "33c0324088493d2db9b853d8f34f65fbf90e94df7c8fdbc77e81cd800fa2940b",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "86c429986c269304e4dff20a5dcf991dcaaf9399c79799b2a2a4d5961ed8b0b3",
             "labels" : {
                 "0" : "caller",
                 "1" : "random",
                 "2" : "myself"
             },
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/VMTests/vmTests/suicideFiller.yml",
             "sourceHash" : "edd45ded3d170e96ea0a2ed8bbc33002be2e75c679ee59f63217995c4430e6f3"
         },
@@ -23,10 +23,43 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xa6b65174c1447b4fd4525885357b075359f3eb0393f722b7afe861986ab0782a",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000010001ba0e804e5494ee36e46aead77587f8e1a2016d88f03065c9cf0263891c6dac96103a004580084913e7f6c749872f38482fc0e38a102eb20cc8a5352c3ee6c68c2b564"
+                },
+                {
+                    "hash" : "0x8f73e02778f104ce84b0c4339bc5735dbf2a49598be0665d79c9b287cdf1fa06",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000010011ca04c3114deffd0530a12256815f6368db21fb98e566b78cce2e6a563e5b8309cdaa046a84b5d5dafca628107294912bca52131c890117776330a9bc4a2cd8900d610"
+                },
+                {
+                    "hash" : "0xb44f9dd68b22dd611ddde069b790597263c1878e7fb0c2e8d5812a555bf7e6c3",
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf885800a8404c4b40094cccccccccccccccccccccccccccccccccccccccc80a4693c613900000000000000000000000000000000000000000000000000000000000010021ba01f5e4d89d0bdbc306860533c1ce69764eabff322bcc9f441260199ae28e64ceea01a32c8337e7bb975fd26f5e9baf846013f38f6a838d8b10162bb2e86e4244e7e"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xa6b65174c1447b4fd4525885357b075359f3eb0393f722b7afe861986ab0782a",
                     "indexes" : {

@@ -2,11 +2,11 @@
     "shiftCombinations" : {
         "_info" : {
             "comment" : "https://github.com/ethereum/tests/issues/564",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "0ba314564a09f61b4ed04ce35cff55edf4f7390ade2fee63935c61afba0c7ad1",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "a2d94be096cff3ce20fa9916b0232f593c42ce81ee5b83d1f7d9597e3122ee57",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stShift/shiftCombinationsFiller.yml",
             "sourceHash" : "01f9364a971e50d54f9b3ae74c82075fa709b60abf463b7801d9ccb8f178bce9"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xb3b78b46c1fd3051bb2cb46b703db21b6ec760f50f406a686cb887b720baeec8",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8404c4b40094095e7baea6a6c7c4c2dfeb977efac326af552d8701801ba0ee27b78889f9804d41653c96e9719d812664cdad812b86cfbcd5aed83cd93e87a05fdfe56c164829fe45dd3008c5daa006a2e2e4e87de68c39622b11d07f1b3775"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xb3b78b46c1fd3051bb2cb46b703db21b6ec760f50f406a686cb887b720baeec8",
                     "indexes" : {

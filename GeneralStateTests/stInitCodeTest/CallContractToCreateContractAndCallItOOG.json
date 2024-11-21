@@ -2,11 +2,11 @@
     "CallContractToCreateContractAndCallItOOG" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "9fa2de4b6be2a4e2a15b67e561098c3344c0983541140c542357aaca46d10e10",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "0252f140b62cffa25c0bec5685ec4d7e06427ba3ea1159df4733905ac98372c1",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stInitCodeTest/CallContractToCreateContractAndCallItOOGFiller.json",
             "sourceHash" : "de442d09dd4c4099b937735cec3b5d716f979bd3c16cadfcc998c687ecfa3e5c"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xe5004d7f49eb4a49c6791ad974c95bd92b244f0b6af9a6fc48eb50128b3cb57f",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830318f894095e7baea6a6c7c4c2dfeb977efac326af552d8780001ca0ed7099e3bf2fc10f12c49ce5a0bf8ffd8fdca079207e0c0917c1ae821221ecd9a029faa8892ca9ec398baad3b05574c0d40d2801537e3cc27c85275bcf0a17f728"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xe5004d7f49eb4a49c6791ad974c95bd92b244f0b6af9a6fc48eb50128b3cb57f",
                     "indexes" : {

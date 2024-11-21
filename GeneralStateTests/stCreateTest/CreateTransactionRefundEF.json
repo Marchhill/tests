@@ -2,14 +2,14 @@
     "CreateTransactionRefundEF" : {
         "_info" : {
             "comment" : "Test combination of gas refund and EF-prefixed create transaction failure.\n",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "282fe2361e84c9e6107b987b7ff715e3a81e8140b596c1f1a105bc083cdd3d11",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "5524ec104c6522220cddd4413a2a32376f1c4c69abe0a2abefad75e4b1ced3e5",
             "labels" : {
                 "0" : "refund_EF"
             },
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CreateTransactionRefundEFFiller.yml",
             "sourceHash" : "1662f0ece38e749fb03bff9e735b20896b7fbfd1fdea35e60884c1aed4ed55b5"
         },
@@ -21,10 +21,23 @@
             "currentGasLimit" : "0x0f4240",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x4b1bc97fd4a78def80c3b4b6471400e9170f5d8850fe17170119c21adcec5f21",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf865800a830186a0808099600080808080625ef94d61c350f15060ef60005360016000f31ca0b2905a92bfc7f3f0d932179176c4e631b32924b2c9060453a47ca4bdaac9da0aa0486e74e5ede0039eb79463d9db165afbf0d1d0505826f04175c50146e4d8e132"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x4b1bc97fd4a78def80c3b4b6471400e9170f5d8850fe17170119c21adcec5f21",
                     "indexes" : {

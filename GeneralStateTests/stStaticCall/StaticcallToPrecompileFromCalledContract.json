@@ -2,11 +2,11 @@
     "StaticcallToPrecompileFromCalledContract" : {
         "_info" : {
             "comment" : "STATICCALL to precompiled contracts from contract that called from another contract.\nIt should execute successfully for each precompiled contract.\n",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "47111f514d2a354416c30eeb096c7086b180ed8aa79e7dbd3ca1fb93fdd5e8ed",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "d20929058128059f4010677362995db53cf069975fafb9f36f579f8fc29d3c47",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stStaticCall/StaticcallToPrecompileFromCalledContractFiller.yml",
             "sourceHash" : "f34eed8ed2641cc2581889f15f4925f13d0f3f4f58cafa967480a04ddc1f1ef3"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x989680",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x3f1e736215e637331511dcffb77e285ecb84f19a45134ee8db0a9e7e951324b6",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830f424094b00000000000000000000000000000000000000064801ca06c84a6619cb4f711d3808c41a0e9bee89be8170a390fc954d6c7364bce2afb37a00ab3b0cc9c619f89be0bb583d4b45d7ce2fde910b407b2b23157502fa4f89af6"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x3f1e736215e637331511dcffb77e285ecb84f19a45134ee8db0a9e7e951324b6",
                     "indexes" : {

@@ -2,11 +2,11 @@
     "randomStatetest47" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "12144731f34fd2bc99e238c096102ff726f57ba5a0e936d8c275900884def63c",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "78ec180438a87f48f1ca824c93661ad1d7f3a12cf5d03f66042682b2d4c245b9",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom/randomStatetest47Filler.json",
             "sourceHash" : "2c098c6e3f7b4563979f77ba94811ea4aa9e2ab6c9367808f5f850f26c6c0795"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x7fffffffffffffff",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xdc754fe082a8f1e97b61e8254f832f54cc6ac3ebc53bf586925b3d35f6dc35be",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf9013e800a843f53d84194095e7baea6a6c7c4c2dfeb977efac326af552d878477a1a475b8d8437f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000000000000000000000000000000000000000c350437f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6f1544898b167c6a6f6d5b953714457e1ca007efcbdd2ba1e806c6fd0cfe23c0c187a0952851dd1dfa51d0c2be341c2194dda00b764feb53d7e11660e5146119399448e93d2e71a6b568c9f1e8c78a17e464b1"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xdc754fe082a8f1e97b61e8254f832f54cc6ac3ebc53bf586925b3d35f6dc35be",
                     "indexes" : {

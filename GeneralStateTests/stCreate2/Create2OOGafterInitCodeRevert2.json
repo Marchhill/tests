@@ -2,11 +2,11 @@
     "Create2OOGafterInitCodeRevert2" : {
         "_info" : {
             "comment" : "Calls a contract that runs CREATE2 which deploy a code. then after deployment and exiting from CREATE a REVERT is called. check the REVERT data in this case equal to RETURN value of CREATE2. CREATE2 fails due to the deployment cost.",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "11f656cf1113e495f926b8b5c9e84899fc6c37dea71e3412feb04d53067896c9",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "58fa10463ea2c5598e7196285156db926440b24761e72d210f9eec5283eefd6e",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreate2/Create2OOGafterInitCodeRevert2Filler.json",
             "sourceHash" : "1daaf3d37c85c0e7a68443c94db8859e5b7285718b818b4b16ab6698770685a8"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x989680",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x1df241855f034544e484e363bc13f8b2d3c49e361768ac034619008096bc993e",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a830124f894c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca04ee610959d952713c71c18dcc4cb0a30bf4ffe5a94bf307b54c56aedbd6ba85da03759dc3d37a0f6c536c851b280ffbc48b50dee61b20f749a6ebe66d67ba7eccc"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x1df241855f034544e484e363bc13f8b2d3c49e361768ac034619008096bc993e",
                     "indexes" : {

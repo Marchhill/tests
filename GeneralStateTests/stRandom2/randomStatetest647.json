@@ -2,11 +2,11 @@
     "randomStatetest647" : {
         "_info" : {
             "comment" : "Malicious bytecode found by fuzztest tool: returndatacopy(0,-1)",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "c5862eddc032fda06dab80ff4306549aef6cae795fd7d4e4d076720848e817dc",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "0e7802c85e1d0a3e2b03914d02896c0fa0ef0bef5c8780b7b1ebc2b711362222",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom2/randomStatetest647Filler.json",
             "sourceHash" : "07c4509252071bc23079fdaf0a73343b8a94bfbef6bceb5ff831ba06627f5f41"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x42fe8c95373ea1",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x658572ba287cc9c668f1a9b02f792ed4f342a61130eb6c74d5f79a9d4d317c84",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83584d3194c94f5374fce5edbc8e2a8697c15331677e6ebf0b80801ca0fe5fa660ebd840483797cfadae975d735b9d0dbdee958c4f9348a05cd6f48b68a068aef8408342266d09d497047888c3478be544da87824a6b88c071ffd90fc79a"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x658572ba287cc9c668f1a9b02f792ed4f342a61130eb6c74d5f79a9d4d317c84",
                     "indexes" : {

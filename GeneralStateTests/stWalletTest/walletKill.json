@@ -2,11 +2,11 @@
     "walletKill" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "2b27fea43bff36d5e6e9b266d68474b68b88611283535661c1578114890a3652",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "7d2034368bff93bb7521410b2fe20fe5f71485db636c6f3dfb0b92b800ded1cc",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/walletKillFiller.json",
             "sourceHash" : "9778564ea54e7481ba93850f6f263a4761ebeb736145a7ab32561a532a474ece"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x843d14b870b8f7fae6effcde1e2c5b403f39d29d8cf9ae38e4c46c01b12b8708",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x65de46fa4047c906452e90d54484b6c34ebfd55efcb4146f87bdc25ea7c42f7e",
+                    "txbytes" : "0xf884010a8398968094ec0e71ad0a90ffe1909d27dac207f7680abba42d01a4cbf0b0c0000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b1ca0e34035859661f428d30a521afa1cfb6f750c1ddc1d5d28bcd0140386db2054cda07db90261ff180d559705a13dd5433057104df6dccaa7a6e9b9c8475ec30125ef"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x843d14b870b8f7fae6effcde1e2c5b403f39d29d8cf9ae38e4c46c01b12b8708",
                     "indexes" : {

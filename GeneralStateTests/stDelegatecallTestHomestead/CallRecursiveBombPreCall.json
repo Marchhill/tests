@@ -2,11 +2,11 @@
     "CallRecursiveBombPreCall" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "4a853179bb4b709703eaee7bb76407a7f2425b209367d7066ccd81c9e62497be",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "b3158493f04b299bd9374b7c4e0bf61f13bb09352d9962976d724df3704896c7",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stDelegatecallTestHomestead/CallRecursiveBombPreCallFiller.json",
             "sourceHash" : "7fb01a3d1290f82b61f3b5b697d0364e4764bdaf61517f2839b0ba28661998f6"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x7fffffffffffffff",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xa12bfef53466fb5f1f0ceed6c9ca6afaf6c3db4926cd1139a30470e32e38a2ca",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf865800a887fe000000000000194095e7baea6a6c7c4c2dfeb977efac326af552d8780801ca0364f82f35c1de49c8240f79a50728a2c6205b7b7fc8e479276023b5e2c759ff6a07cf0e565dd02a05bf2a5aafd5b9bd1089de60d06e54c46c1b8d8169dcc513b60"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xa12bfef53466fb5f1f0ceed6c9ca6afaf6c3db4926cd1139a30470e32e38a2ca",
                     "indexes" : {

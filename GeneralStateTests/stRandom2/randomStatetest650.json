@@ -2,11 +2,11 @@
     "randomStatetest650" : {
         "_info" : {
             "comment" : "Consensus issue test produced by fuzz testing team FuzzyVM-1061441003-276458261",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "11f6c3cf1d0a3a9b6d32c37c31535a53de7401c0cb581669412a1d6b5cc8428c",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "10f7289539d3f7006d6d2a631a0f44a4883395770f686801007e27a86587976d",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom2/randomStatetest650Filler.json",
             "sourceHash" : "8a04a1d8db0ab621c7f24d9f0ae31ee1147698dc7d74194ecc8ff658b3c2680b"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x26e1f476fe1e22",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xc67407239de9d1d5cd95ff7c81d8ccd46ce73efc92f7385c2bc5dd3711e9eac8",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8ca800a8401312d0094000000000000000000000000000000ca1100f02284efbfbd03b864000000d514029599b459ce6d7f5a430010f6730aefbfbdefbfbdefbfbdefbfbd03000000d514029599b459ce6d7f5a430010f6730aefbfbdefbfbdefbfbdefbfbd03000000d514029599b459ce6d7f5a430010f6730aefbfbdefbfbdefbfbdefbfbd03001ba0dc49386c1367c10f0e96399b7edb397d0e4e56e59db039d09ea83e0e9b6bedfba0316a71182789898fe932cffc0b948d9159659f2868a59c7aaacfddc2208a412f"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xc67407239de9d1d5cd95ff7c81d8ccd46ce73efc92f7385c2bc5dd3711e9eac8",
                     "indexes" : {

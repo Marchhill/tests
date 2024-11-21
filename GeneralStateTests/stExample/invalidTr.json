@@ -2,11 +2,11 @@
     "invalidTr" : {
         "_info" : {
             "comment" : "A state test with invalid transaction example filler",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.cae6bc33.Linux.g++",
-            "generatedTestHash" : "d99de15c67dea8ff9ef9420cdbc9d3036a91946673b068861f34e057ebb44722",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "15437135cc15bb863a1f519f499acf8adebba656118d75e29da1a28013bb8d72",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExample/invalidTrFiller.json",
             "sourceHash" : "d1376d4db519f6edfbae11e4878022a42f2df9547b2357dc292a0a5f4a2c6363"
         },
@@ -18,10 +18,24 @@
             "currentGasLimit" : "0xff112233445566",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "expectException" : "TransactionException.INTRINSIC_GAS_TOO_LOW",
+                    "hash" : "0x4c9c6cf002e6a88a5444662ca9ceb6a116b7b69ced38c470bf6e4a12a6313967",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf862800a8203e894095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba0bb6249049eb38732aa28ef23385945e51c9582c7fab78bd33f6086bd4181615da035118c5432cd6a3bdd6f989d4eee3d43d11736e640bc249d9a2c37e01db3d4b5"
+                }
+            ],
+            "Prague" : [
                 {
                     "expectException" : "TransactionException.INTRINSIC_GAS_TOO_LOW",
                     "hash" : "0x4c9c6cf002e6a88a5444662ca9ceb6a116b7b69ced38c470bf6e4a12a6313967",

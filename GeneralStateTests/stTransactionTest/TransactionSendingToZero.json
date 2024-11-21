@@ -2,11 +2,11 @@
     "TransactionSendingToZero" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "0529c334b112cdafa653346ef742decf3b2c64a69fb8ddae2e5668f4925fe6d4",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "4667dcea7aed8f87b681ff2970f7681f3366246e390e51cdeb1b764b18ed6086",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/TransactionSendingToZeroFiller.json",
             "sourceHash" : "29089650212ccb39d0e36aac5e4ea671c0ce2e708e6b161b18a6dfae17cf45e9"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x0f4240",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x7f5cf10086700d13ec49dea3037e9878b8ceb6f32ed64fc25141e2f36d1ae18d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf85f800a8261a894000000000000000000000000000000000000000001801ca0b2d14737cfeadb71a80b7569f12da1e86709adc3839b8335aac66bf2ddefe7c9a00c3e5734175e32a3607c7c89e38b754ac5c6781f5238c7055e4fc058debc2b99"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x7f5cf10086700d13ec49dea3037e9878b8ceb6f32ed64fc25141e2f36d1ae18d",
                     "indexes" : {

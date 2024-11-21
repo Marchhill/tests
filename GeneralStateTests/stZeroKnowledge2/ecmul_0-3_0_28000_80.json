@@ -2,11 +2,11 @@
     "ecmul_0-3_0_28000_80" : {
         "_info" : {
             "comment" : "Puts the point (0, 3) and the factor 0 into the ECMUL precompile, truncating or expanding the input data to 80 bytes. Gives the execution 28000 bytes",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "d06b703a1a919a559a8217902e1eefd02d0706777f110becf9a2b8fddf8ac2d8",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "6a19b0d2c64e64ca054f5bb67ec2fb01c46e400a26e89c99d55faba2ac2b9a77",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stZeroKnowledge2/ecmul_0-3_0_28000_80Filler.json",
             "sourceHash" : "0f0e1ed7caa6b5533623db85fd787ebbaea8928a4dd9de7edd59a0b5a78cd9a0"
         },
@@ -18,10 +18,53 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x289029e35580e4184ad7685a33eb136a96d08e97c793e60658050e6f6cc73742",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf90104770a82c3b894c305c901078781c232a2a521c2af7980f8385ee980b8a430c8d1da000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000001ca0611be4bc94f7fa9a03663f43015a259e083b905320a7c8f92f36ccd45719a02fa05c53c0d727e8715deeb24b6f3098472ef3c56ad38024baab4e03cd8f7aa217fa"
+                },
+                {
+                    "hash" : "0xc9f6bfac298e4f471df8da0d1632bd30ca0c15a6e42139361c56669898815b0d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf90105770a83015f9094c305c901078781c232a2a521c2af7980f8385ee980b8a430c8d1da000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000001ba0df53ac93394c68e113fa37b6087f504851addfecfb4950351942acfa68a9debba01220ceb61b952be3360cd422d2954f84d44d2dbd972eac4b0d93d909ef8f9fcf"
+                },
+                {
+                    "hash" : "0xed5b45a0796523ac6ca0c0d22a15576ed71deb1cf58391aa115995b60d747511",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 2,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf90105770a8301adb094c305c901078781c232a2a521c2af7980f8385ee980b8a430c8d1da000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000001ba0484d2f90cd405034d93babc7e2978e751b23baf92092be0a042a6297845e4420a0696f6301c57df1126d1db9b989487358dfaaa2b6bcdfa7707b15436737d3b6ce"
+                },
+                {
+                    "hash" : "0xbbaf4200de0b8c29b50b6244991aa547a8c6273bc2533103d7e60ba5e987c362",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 3,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf90105770a83030d4094c305c901078781c232a2a521c2af7980f8385ee980b8a430c8d1da000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000001ca01c89fed56c77718e8dc0ae8b81bab196035028dd73e56482718a92a2085fb5a4a04efc3d99977e6b9d9850838467c5bdf03a8929cf682ebfc518aa62876e1fa5f8"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x289029e35580e4184ad7685a33eb136a96d08e97c793e60658050e6f6cc73742",
                     "indexes" : {

@@ -2,11 +2,11 @@
     "extCodeHashCreatedAndDeletedAccountRecheckInOuterCall" : {
         "_info" : {
             "comment" : "EXTCODEHASH/EXTCODESIZE of an account created then deleted in a CALL, checking results after the CALL returns",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "04452d84a3560afe6cd20b9a395e20f2638dc10f5a8de302aa3bade6b39cffa9",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "5e18b5408a13389bf624ecc80a49dc7404657a3f461a9f92f7239a08a5245367",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashCreatedAndDeletedAccountRecheckInOuterCallFiller.json",
             "sourceHash" : "d154391eec193a9a4428bfd8d8031def8b1d1d0e87e9dd39b07d75a38274e75b"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x0f4240",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x075fce705601ab21d8c3010e613c883c7043a20160d743ee0dfdf489269c7796",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a83061a8094deadbeef0000000000000000000000000000000101801ca0ca915032d520b0ce68147354cbf04fc2ddf38a11ce2f4f767abd6a32b14b9152a073f798b81ce7c99b290b46865b6e1aa84a9fd5cd0164784a97fa4f70604d225a"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x075fce705601ab21d8c3010e613c883c7043a20160d743ee0dfdf489269c7796",
                     "indexes" : {

@@ -2,11 +2,11 @@
     "CREATE_AcreateB_BSuicide_BStore" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "845ead4ec67ec5d260d88add1b76319651bf1215a2b24362eee2a54daebcbbc5",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "71478e0fe13fe9607d464fef42b2da689d5fd6c66eeba9b90937e168939605e5",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreateTest/CREATE_AcreateB_BSuicide_BStoreFiller.json",
             "sourceHash" : "2bc679789fa8af43f6c96259c8c5b30d9d6feed445939801795410ea4918bc55"
         },
@@ -18,12 +18,25 @@
             "currentGasLimit" : "0x989680",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
                 {
                     "hash" : "0x7990e46df8b01315d9d0cf31d4c782b3eb875dd716fb89454e7e2480f1e6a3a2",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf864800a830927c094b94f5374fce5edbc8e2a8697c15331677e6ebf0b8084c04062261ca02533703e522920868c57dd13bf60c6f16e493cf32e3d0e84509b5f21ae242447a0437bd5ba83d1b45949c55e91c85d996bfbbeb34c6ad1abab1b741a7198b70dee"
+                }
+            ],
+            "Prague" : [
+                {
+                    "hash" : "0xb218a92ba7be748e4320943859cf7e9231a5ab030034c6b3da4bebe222561bf5",
                     "indexes" : {
                         "data" : 0,
                         "gas" : 0,

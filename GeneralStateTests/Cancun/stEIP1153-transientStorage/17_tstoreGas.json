@@ -2,11 +2,11 @@
     "17_tstoreGas" : {
         "_info" : {
             "comment" : "Tstore arbitrary value in arbitrary slot costs 100 gas.",
-            "filling-rpc-server" : "evm version 1.13.11-unstable-765f2904-20240124",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.ea13235b.Linux.g++",
-            "generatedTestHash" : "e0be4e133408e1e85617513a4999ddea199df127b7d78aff05859957afae5196",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "b270c9b01263d32c5708e12278c7c5c158ff357648228c5f1f97839cec28cf00",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/Cancun/stEIP1153-transientStorage/17_tstoreGasFiller.yml",
             "sourceHash" : "a4cf55a4d81b546d4b3d94aadf221a28ade411d7df4e5ace1f168b96c1ba373f"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x10000000000000",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x69422fae97e589d8491046555df7cee441af0f64b37860779985b224bfe38205",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0x02f8650180808207d083061a8094a00000000000000000000000000000000000000a8080c080a0eb34938cf59db03479b41a3c3e520a1acdde6b24fe9632bad61ed321f18a5862a02c7e383e3616633f6e5253c56064f29ea377d2b97c80aab328786facc0978cbe"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x69422fae97e589d8491046555df7cee441af0f64b37860779985b224bfe38205",
                     "indexes" : {

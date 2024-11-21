@@ -2,11 +2,11 @@
     "14_revertAfterNestedStaticcall" : {
         "_info" : {
             "comment" : "Transient storage can't be manipulated from nested staticcall.",
-            "filling-rpc-server" : "evm version 1.13.11-unstable-765f2904-20240124",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.ea13235b.Linux.g++",
-            "generatedTestHash" : "b928fbb8fb4f8a47ecd6145c6edccd995521574691e269518e202649f49ef48c",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "242d8c090d23f4f2fac15322d45b4f4331caf8b785f7ef893e90c403888a409e",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/Cancun/stEIP1153-transientStorage/14_revertAfterNestedStaticcallFiller.yml",
             "sourceHash" : "ab3ed26ba358f9b33b16570afe084ec8060ed687662361aa0d2299c4ead699af"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x10000000000000",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x3545179eb3e772543b6d84e8d6836f7d40a48f0f2bc9157a6c141b290207f22d",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0x02f8690180808207d083061a8094a00000000000000000000000000000000000000a8084f5f40590c080a010c8e9f46fe5e78607783f2799bf949663d199019d6508e779365b5ac682a1f1a01ac436e06aee46143a9a3515c1797e4fbcf3594f2851949ef06c001baaff0d0b"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x3545179eb3e772543b6d84e8d6836f7d40a48f0f2bc9157a6c141b290207f22d",
                     "indexes" : {

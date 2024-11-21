@@ -2,11 +2,11 @@
     "dayLimitResetSpentToday" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "aaeab2287a9a26dc8c2fdf89c2cb7b543ac2dc2eb5346dcfe606d917b1708ad1",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "c426a9be12c4f1bdea7cb00454845e0e6f663c92c37031e8d647cba098ed7674",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stWalletTest/dayLimitResetSpentTodayFiller.json",
             "sourceHash" : "bd541e4ffe32a75e59abe46416c932ba519e5dc7333642bd8327e9cb68760168"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x989680",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xfc64b277d1614e61e15bdab6289a3b3ce2b06f885d15e6d25f6b338297a5528b",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x31bd875e2a1b97f58f3b72ae983d1dd7efa06322b74970925df8d114adf86fb5",
+                    "txbytes" : "0xf864010a8309b33594ec0e71ad0a90ffe1909d27dac207f7680abba42d64845c52c2f51ca0b8dcfa94317331755a90965a7da3f1a7dfd68e8e2bbc22bc4b5210ea9474cc9ba01d09bc5bc1350ef0cdb49c8e3ee2263924078a9dd4c23d8347fef40e057cd5dd"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xfc64b277d1614e61e15bdab6289a3b3ce2b06f885d15e6d25f6b338297a5528b",
                     "indexes" : {

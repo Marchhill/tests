@@ -2,11 +2,11 @@
     "CallIdentity_6_inputShorterThanOutput" : {
         "_info" : {
             "comment" : "CALL to ID precompile with 32 bytes of input and a 64 byte output range. The lower 32 bytes of the output range should be set to the input and the higher 32 bytes left unchanged.",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "1ebe78c30971afef702656b2b09cda51c428e4de23800c4231b0ffe67b55fbff",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "dc9f41703ad4e3c129df5d7093b3e75097aef9d98f945d6e98af5a4771ff81bf",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stPreCompiledContracts2/CallIdentity_6_inputShorterThanOutputFiller.json",
             "sourceHash" : "f0f5bbe515e9c06b9ff6a541eefb68dfa80ecf44b8f0e81b91f770376bc5295c"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x66446224f3579d8fea5d21aa5fdf403ccd3b1f8544f868829892e678918af1bf",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a8398968094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ca0cd6a25a21d686e596c26423ec16cd165f89b4a68ccba98478c740b0db7ce8773a069934f81a17f0b0f3c468c6bdb27ae93876ee94810875d9de367b1f5ae784c04"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x66446224f3579d8fea5d21aa5fdf403ccd3b1f8544f868829892e678918af1bf",
                     "indexes" : {

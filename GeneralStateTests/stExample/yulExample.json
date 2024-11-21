@@ -2,11 +2,11 @@
     "yulExample" : {
         "_info" : {
             "comment" : "An example test for using simple yul contracts in the test",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "459acb7048fe4c7a0132f816c797ebaf7b025a01d2d7455a65ff617d9e03f9b6",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "66d223d7564b4b91bafaaaf5f136263a7da5002bcb54dd333d0f8fc23e529fbb",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExample/yulExampleFiller.yml",
             "sourceHash" : "fbe1910a90523bd00696f2372982f884f96634a97d7d323d466803ee82e852c6"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x05f5e100",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x8c12a29b17cbe89ce577d2cb9e62fb2ae3a1918d56cd6c6757de311ac294c604",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf861800a8404c4b40094095e7baea6a6c7c4c2dfeb977efac326af552d8780801ba0341cbeace0edb5051180861215a6174e9bd7a871dd671398cb3ff6fec62c669aa0570545f3df8983280e93798904627a4214fef67fef406bde99f2aa96087a89e5"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x8c12a29b17cbe89ce577d2cb9e62fb2ae3a1918d56cd6c6757de311ac294c604",
                     "indexes" : {

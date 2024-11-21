@@ -2,11 +2,11 @@
     "CallEcrecoverInvalidSignature" : {
         "_info" : {
             "comment" : "CALL to ECREC precompile with input which is a completely invalid signature and a 32 byte output range in memory. ECREC should return an empty response and the 32 byte output range should be left unchanged.",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "d97fd9e9e9c65eb67c53530754a8a4c5c573d43142287e1ae8060bd756510050",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "44180a0b90be5efc82787142d210ea74238060590e93de6755b0c4d471557012",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stPreCompiledContracts2/CallEcrecoverInvalidSignatureFiller.json",
             "sourceHash" : "e3ab3e48a556f83a0d5d5c8c77fc345c37baccd75135347aacbe87afcb79d053"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x989680",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x4741ed853d560955c0a4766ebcbb15cc48ebd77902efbc3906c25107e3cc8ebf",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf863800a8337ba9094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0801ba06a993fe85c28a258b1f8de2e2821e0fd3fcbd10fa9112a637a941ba0d449fe6ba06990d0aadd5b2ae11998bfc220b1abf8b04b0500b91c500748aa6b50daf4c250"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x4741ed853d560955c0a4766ebcbb15cc48ebd77902efbc3906c25107e3cc8ebf",
                     "indexes" : {

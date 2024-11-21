@@ -2,11 +2,11 @@
     "blobhashListBounds7" : {
         "_info" : {
             "comment" : "BLOB006",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.cae6bc33.Linux.g++",
-            "generatedTestHash" : "e72dce158824b831e8fc6880a886bf787df4b5fa125b3800ba6401f8cc22fec5",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "d96bd1f4dda4b4ae2b2ac639260a785937da8994e125897e66e839ae47088e79",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/Cancun/stEIP4844-blobtransactions/blobhashListBounds7Filler.yml",
             "sourceHash" : "173c7217fdf49836aea3fde0f9dc026c141cf604bd543567fcaba84c4f8666ff"
         },
@@ -18,10 +18,24 @@
             "currentGasLimit" : "0x1000000000",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "expectException" : "TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED",
+                    "hash" : "0x538353a3893bdc8daa9eb125f6680804fc6f63e07ba1a1b65329614325528a54",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0x03f901b101800285012a05f200833d090094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a000f85bf85994095e7baea6a6c7c4c2dfeb977efac326af552d87f842a00000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000010af8e7a001a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065f0001a001a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065f0002a001a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065f0003a001a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065f0004a001a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065f0005a001a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065f0006a001a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065f000701a04c6a25969991d996e7f40964ba872e8dc6e8acdc422af055d9f404180dd2746ca013b66a111e61fb3ad575d456a1d976d221436f403f342ae8e78c19b177705607"
+                }
+            ],
+            "Prague" : [
                 {
                     "expectException" : "TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED",
                     "hash" : "0x538353a3893bdc8daa9eb125f6680804fc6f63e07ba1a1b65329614325528a54",

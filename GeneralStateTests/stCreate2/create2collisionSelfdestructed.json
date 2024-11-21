@@ -2,11 +2,11 @@
     "create2collisionSelfdestructed" : {
         "_info" : {
             "comment" : "collision with address that has been selfdestructed in the same transaction",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "a3ea19689944f63903db0fa39f1db6eca84aa6357ebfaef6ef32a307c8b40326",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "6668a06c7b67b439c5d7a548b64d59abe12adac74c3f68fc76ff58b5f6814623",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreate2/create2collisionSelfdestructedFiller.json",
             "sourceHash" : "d663fb03855464bec7cd3714e8981d56e44daa283a3d689198fbc583c233678a"
         },
@@ -18,6 +18,7 @@
             "currentGasLimit" : "0x0f4240",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
@@ -44,6 +45,38 @@
                 },
                 {
                     "hash" : "0xc803e54c9d2e071d364a3b6ccb43bf979a6fa840876d1abb4193039eb3a1aecb",
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf88d800a83061a808001b8406000600060006000600073ec2c6832d00680ece8ff9254f81fdab0a5a2ac5061c350f1506d6460016001556000526005601bf36000526000600e60126000f5001ca0672bedbae180487f9dc93758ce9024338704b421a51b07e4f8b45ccaf97e5f7ea024768824ec83978be5646b06df4619a10c1a413cbd6d7b8ac57b86ef9b02082e"
+                }
+            ],
+            "Prague" : [
+                {
+                    "hash" : "0xf5cb3f5931c8c50f733cd29daca78fc2e1309eefd00b500bc8e485e2c92f8c08",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf87a800a83061a808001ae6000600060006000600073e2b35478fdd26477cc576dd906e6277761246a3c61c350f1506000600060006000f5001ca0082da9353e2b9fad06feb662896cce5486c59bf3b75e94cde473d2b9d88a5774a03e537bca783536d9af1f362944178f9408f12fbb844f422ded1f4000de4f8a7f"
+                },
+                {
+                    "hash" : "0x71a653fcb1c8ce70525961f6d1e7517ab04842c2e3503cd436ef09b9e71f6c75",
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf883800a83061a808001b76000600060006000600073af3ecba2fe09a4f6c19f16a9d119e44e08c2da0161c350f15064600160015560005260006005601b6000f5001ba02b675fe8ae40be0af2745878b1d4954ae6974ccbcaebf8fac665e00716588af4a071f61b89f7bf34d4d0c04bd29fad89085d01d991794ac25ace34bdbf72ce3a44"
+                },
+                {
+                    "hash" : "0x14672d787f2de8f95a650ccd18b5e7cebc16f624ef20e010a67b84c9c5c58055",
                     "indexes" : {
                         "data" : 2,
                         "gas" : 0,

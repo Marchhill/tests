@@ -2,11 +2,11 @@
     "extcodecopy" : {
         "_info" : {
             "comment" : "God knows what is happening in this test",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "e052d04bb62f1ddbb1094f82203adb927c75baa0f564a30dcb90ddf8c9f22eab",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "d893a6b7ccd48aa9eb54188f59d9d94105dbf65d7c1dd6fcf82c5a1b95159b2a",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/extcodecopyFiller.json",
             "sourceHash" : "713b00a90f70d1ad6ad6b1aa95b6c7894b0f9321f3f986f984dbc1dcb3d2eb82"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x58272e28",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0xb471852ba613c3025cfd6dc469e77e56c9a3657fa86048ee37f470ddb647d1b3",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf8f980841cd49878843bd760dd94095e7baea6a6c7c4c2dfeb977efac326af552d878424a39757b88f6e27b0577f2549e5fa01e3db96e7b03a62e489115538620295677faf15040c1c1796bad130e2462a8b8d6bbe0fa35bf12087047ef4ff4e66df8772196b4401998ff7f4219c013a0d927b22d8d3fdf625809abb182507d180e687b666f4f1e4f3b8172e87760f436c701264b89739f3d7c50ec524f16b1a4f91397b760a5209b9b7710544694ecf2729643b3ca545c71ba0ca8c14dd147675db542af1806ebc691815ef7bf85f3b85b57d572d7845ff763ea04401abeecfeb28f6f372f16f5837f266d21d25dda6e8c8aa9b2e8da9bf459e4b"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0xb471852ba613c3025cfd6dc469e77e56c9a3657fa86048ee37f470ddb647d1b3",
                     "indexes" : {

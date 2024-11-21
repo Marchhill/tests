@@ -2,11 +2,11 @@
     "selfdestructEIP2929" : {
         "_info" : {
             "comment" : "Martin: @tkstanczak requested a state-test regarding selfdestructs in relation to EIP-2929. I made one, which tests different variants of hot/cold accounts, and even precompile beneficiaries. https://github.com/holiman/goevmlab/blob/selfdestruct_2929/examples/selfdestruct_2929/main.go#L94",
-            "filling-rpc-server" : "evm version 1.14.4-unstable-3d8028a6-20240513",
-            "filling-tool-version" : "retesteth-0.3.2-cancun+commit.2ab0208e.Linux.g++",
-            "generatedTestHash" : "bd3804489f844f82914dddfa11f5815908141c26bb9ac8663ecd1fb5b6a4069b",
-            "lllcversion" : "Version: 0.5.14-develop.2023.7.11+commit.c58ab2c6.mod.Linux.g++",
-            "solidity" : "Version: 0.8.21+commit.d9974bed.Linux.g++",
+            "filling-rpc-server" : "evmone-t8n 0.13.0-31+commit.37e2cffb",
+            "filling-tool-version" : "retesteth-0.3.2-legacy+commit.c446cb9e.Linux.g++",
+            "generatedTestHash" : "c63d6fa21b2d80b56a70870e0e7a2f829918de9453138c0d563d3bc330f995ac",
+            "lllcversion" : "Version: 0.5.14-develop.2024.11.5+commit.b2b86751.mod.Linux.g++",
+            "solidity" : "Version: 0.8.24+commit.e11b9ed9.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSpecialTest/selfdestructEIP2929Filler.json",
             "sourceHash" : "79d608a36dbc6baad46c87cd808d652fbef511a3d3d384e4b62181e46af74f8b"
         },
@@ -18,10 +18,23 @@
             "currentGasLimit" : "0x26e1f476fe1e22",
             "currentNumber" : "0x01",
             "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+            "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f",
             "currentTimestamp" : "0x03e8"
         },
         "post" : {
             "Cancun" : [
+                {
+                    "hash" : "0x5372ed5e78e5ddae83e1303204b68fc87372cee9ef2449cd96842cabadffcc43",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes" : "0xf860800a837a120094000000000000000000000000000000000000c41180801ba0ae5df8f4eecd8f8e17f7629ca1afc2c3d17d472d00c43b01f5bcae355171d931a036135f53a87fe3acbf7a588ca1cfd1b69cfe82f122404abedef18b0a779053b6"
+                }
+            ],
+            "Prague" : [
                 {
                     "hash" : "0x5372ed5e78e5ddae83e1303204b68fc87372cee9ef2449cd96842cabadffcc43",
                     "indexes" : {
