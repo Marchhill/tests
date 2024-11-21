@@ -1,5 +1,5 @@
 {
-    "result_eip1559EnvConvertion" : {
+    "result_pragueEnvConvertion" : {
         "_info" : {
             "comment" : "A unittest for retesteth env section convertion"
         },
@@ -55,7 +55,7 @@
             "Paris" : {
                 "genesisBlockHeader" : {
                     "difficulty" : "0x00",
-                    "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                    "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                     "baseFeePerGas" : "0x14",
                     "withdrawalsRoot" : "shouldnotexist",
                     "excessBlobGas" : "shouldnotexist",
@@ -66,7 +66,7 @@
                     {
                         "blockHeader" : {
                             "difficulty" : "0x00",
-                            "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                            "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                             "baseFeePerGas" : "0x12",
                             "withdrawalsRoot" : "shouldnotexist",
                             "excessBlobGas" : "shouldnotexist",
@@ -79,7 +79,7 @@
             "Shanghai" : {
                 "genesisBlockHeader" : {
                     "difficulty" : "0x00",
-                    "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                    "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                     "baseFeePerGas" : "0x14",
                     "withdrawalsRoot" : "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
                     "excessBlobGas" : "shouldnotexist",
@@ -90,7 +90,7 @@
                     {
                         "blockHeader" : {
                             "difficulty" : "0x00",
-                            "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                            "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                             "baseFeePerGas" : "0x12",
                             "withdrawalsRoot" : "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
                             "excessBlobGas" : "shouldnotexist",
@@ -103,10 +103,10 @@
             "Cancun" : {
                 "genesisBlockHeader" : {
                     "difficulty" : "0x00",
-                    "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                    "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                     "baseFeePerGas" : "0x14",
                     "withdrawalsRoot" : "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-                    "excessBlobGas" : "0x060000",
+                    "excessBlobGas" : "0x0607d0",
                     "blobGasUsed" : "0x00",
                     "parentBeaconBlockRoot" : "0x0000000000000000000000000000000000000000000000000000000000000000"
                 },
@@ -114,10 +114,10 @@
                     {
                         "blockHeader" : {
                             "difficulty" : "0x00",
-                            "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                            "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                             "baseFeePerGas" : "0x12",
                             "withdrawalsRoot" : "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-                            "excessBlobGas" : "0x00",
+                            "excessBlobGas" : "0x07d0",
                             "blobGasUsed" : "0x00",
                             "parentBeaconBlockRoot" : "0x0000000000000000000000000000000000000000000000000000000000000000"
                         }
@@ -127,10 +127,10 @@
             "Prague" : {
                 "genesisBlockHeader" : {
                     "difficulty" : "0x00",
-                    "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                    "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                     "baseFeePerGas" : "0x14",
                     "withdrawalsRoot" : "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-                    "excessBlobGas" : "0x060000",
+                    "excessBlobGas" : "0x0607d0",
                     "blobGasUsed" : "0x00",
                     "parentBeaconBlockRoot" : "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f"
@@ -139,10 +139,10 @@
                     {
                         "blockHeader" : {
                             "difficulty" : "0x00",
-                            "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000020000",
+                            "mixHash" : "0x1100000000000000000000000000000000000000000000000000000000020000",
                             "baseFeePerGas" : "0x12",
                             "withdrawalsRoot" : "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-                            "excessBlobGas" : "0x00",
+                            "excessBlobGas" : "0x07d0",
                             "blobGasUsed" : "0x00",
                             "parentBeaconBlockRoot" : "0x0000000000000000000000000000000000000000000000000000000000000000",
                             "requestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f"
@@ -155,18 +155,18 @@
                     "env" : {
                         "currentBaseFee" : "0x12",
                         "currentDifficulty" : "0x020000",
-                        "currentRandom" : "0x0000000000000000000000000000000000000000000000000000000000020000",
-                        "currentExcessBlobGas" : "0x00",
-                        "currentRequestsHash" : "0x6036c41849da9c076ed79654d434017387a88fb833c2856b32e18218b3341c5f"
+                        "currentRandom" : "0x1100000000000000000000000000000000000000000000000000000000020000",
+                        "currentExcessBlobGas" : "0x07d0"
                     }
         },
         "env" : {
+            "currentRandom" : "0x1100000000000000000000000000000000000000000000000000000000020000",
             "currentBaseFee" : "0x12",
             "currentCoinbase" : "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentDifficulty" : "0x20000",
             "currentGasLimit" : "0xFF112233445566",
             "currentNumber" : "1",
-            "currentTimestamp" : "1000"
+            "currentTimestamp" : "1000",
+            "currentExcessBlobGas" : "2000"
         },
         "expect" : [
             {
